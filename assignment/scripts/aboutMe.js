@@ -98,4 +98,4 @@ switch(luckyNumber){
 function areYouAdventurous(adventurous){
     return(adventurous ? 'Adventures are great!' : 'How about we stay home?');
 }
-console.log(areYouAdventurous);
+console.log(adventurous);
