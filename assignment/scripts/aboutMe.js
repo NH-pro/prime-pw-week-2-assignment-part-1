@@ -69,7 +69,10 @@ if(pets > friendsPets){
     console.log(mostPets = pets);
 }
 else if(pets < friendsPets){
-    console.log(mostPets = friendsPets)
+    console.log(`My friend has ${mostPets = friendsPets} pets, so they have the most!`);
+}
+else{
+    console.log(`My friend and I each have ${mostPets}!`);
 }
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
