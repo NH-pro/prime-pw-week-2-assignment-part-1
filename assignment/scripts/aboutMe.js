@@ -81,16 +81,13 @@ else{
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 switch(luckyNumber){
-    case 0:
-        luckyNumber = 1;
+    case 1:
         console.log('First is the worst');
         break;
-    case 1:
-        luckyNumber = 2;
+    case 2:
         console.log('Second is the best');
         break;
-    case 2:
-        luckyNumber = 3;
+    case 3:
         console.log('Third is the one with the polka dot dress');
         break;
 }
