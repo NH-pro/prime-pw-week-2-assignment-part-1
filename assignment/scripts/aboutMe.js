@@ -47,7 +47,7 @@ else{
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
-if(pets <= allowedPets){
+if(pets < allowedPets){
     console.log('I can have more pets!');
 }
 else if(pets === allowedPets){
