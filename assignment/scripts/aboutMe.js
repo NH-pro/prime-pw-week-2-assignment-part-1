@@ -66,7 +66,7 @@ else{
 let mostPets = pets
 
 if(pets > friendsPets){
-    console.log(mostPets = pets);
+    console.log(`I have ${mostPets = pets} pets, so I have the most!`);
 }
 else if(pets < friendsPets){
     console.log(`My friend has ${mostPets = friendsPets} pets, so they have the most!`);
@@ -80,7 +80,20 @@ else{
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
-
+switch(luckyNumber){
+    case 0:
+        luckyNumber = 1;
+        console.log('First is the worst');
+        break;
+    case 1:
+        luckyNumber = 2;
+        console.log('Second is the best');
+        break;
+    case 2:
+        luckyNumber = 3;
+        console.log('Third is the one with the polka dot dress');
+        break;
+}
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
 
