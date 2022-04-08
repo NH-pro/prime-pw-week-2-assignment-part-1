@@ -9,7 +9,7 @@ const fullName = firstName + ' ' + lastName;
 // 4 - Console log the value of `fullName`
 console.log(fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 3;
+let luckyNumber = 2;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -39,9 +39,6 @@ else{
 if(luckyNumber === 2 && adventurous === true){
     console.log('Roll the dice!');
 }
-else{
-    console.log(`Don't roll the dice!`);
-}
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
@@ -53,7 +50,7 @@ if(pets < allowedPets){
 else if(pets === allowedPets){
     console.log('I have enough pets');
 }
-else{
+else if(pets > allowedPets){
     console.log('Oh no, I have too many pets!');
 }
 // STRETCH GOALS:
@@ -66,12 +63,14 @@ else{
 let mostPets = pets
 
 if(pets > friendsPets){
-    console.log(`I have ${mostPets = pets} pets, so I have the most!`);
+    mostPets = pets
+    console.log(`I have ${mostPets} pets, so I have the most!`);
 }
 else if(pets < friendsPets){
-    console.log(`My friend has ${mostPets = friendsPets} pets, so they have the most!`);
+    mostPets = friendsPets
+    console.log(`My friend has ${mostPets} pets, so they have the most!`);
 }
-else{
+else if(pets === friendsPets){
     console.log(`My friend and I each have ${mostPets}!`);
 }
 // 17 - Write a *switch* statement that logs:
